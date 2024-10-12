@@ -1,9 +1,10 @@
-- First-prize Academic Scholarship, 2023.
+- Chi-Li Pao Foundation Scholarship for Academic Outstanding Students,  
+(2023/2024). Only one award available in each College or School.
 
-- Freshman Academic Scholarship, 2022.
+- CityU Tiger, (2024, Top 10%).
 
-- Excellent Graduation Project of Jiangsu Province, 2022.
+- Dean’s List, (2023 Semester A & 2024 Semester B, SGPA > 3.7).
 
-- First-prize Enterprise Scholarship, 2021.
+- Hua Tai Securities Investment Banking IBD Internship Preparatory Camp (2nd Place).
 
-- First-prize Academic Scholarship, 2019.
+- 2nd City I&T Grand Challenge Semi-Pitch, 2024.
