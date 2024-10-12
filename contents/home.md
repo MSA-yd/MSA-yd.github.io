@@ -1,7 +1,7 @@
 
 
 [![MSA-yd](https://img.shields.io/badge/MSAyd-github-blue?logo=github)](https://github.com/MSA-yd)
-[![View CV](https://img.shields.io/badge/View%20CV-blue?logo=pdf)](contents/cv.pdf)
+[![View CV](https://img.shields.io/badge/View%20CV-blue?logo=pdf)](cv.pdf)
 
 He is currently pursuing a Bachelor's Degree in Data Science, at College of Computing, City Univercity of Hong Kong, Hong Kong, China.
 
