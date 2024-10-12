@@ -13,5 +13,12 @@ School:   yidonming2-c@my.cityu.edu.hk
 B.S., Data Science,City Univercity of Hong Kong, 2023—2027.
 
 #### Research Interests
-Exploring
+NLP,LLMs,Recommand System,CV
 
+#### Research Experience
+Diamond Inclusion Detection,CityU \
+• Using Python for image data processing and data augmentation to prepare for model training \
+• Write a search engine in Python to facilitate searching for corresponding diamond original images, diamond
+images with inclusions, and inclusion images in a database for analysis. \
+• Based on the work of predecessors on GitHub, independently form a group to train a U-Net model for image
+semantic segmentation and binary prediction of inclusions \
