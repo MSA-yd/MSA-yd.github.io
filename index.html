@@ -1,177 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
-
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yidong Ming (Jackie) · Robot Learning &amp; Embodied AI</title>
+  <meta name="description" content="Yidong Ming (Jackie), final-year Data Science undergraduate at CityUHK. Research in embodied intelligence, robot learning, behavior representations, and LLM agents.">
+  <meta name="theme-color" content="#f7f8fa">
+  <link rel="canonical" href="https://msa-yd.github.io/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23153954'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='31' text-anchor='middle' fill='white'%3EM%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
 </head>
-
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">EXPERIENCE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">PUBLICATION</a>
-                    </li>
-
-                </ul>
-            </div>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="shell">
+    <header class="site-nav">
+      <nav aria-label="Sections">
+        <a class="active" aria-current="location" href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Papers</a>
+        <a href="#experience">Work</a>
+        <a href="#awards">Awards &amp; Edu</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="intro section" id="about" aria-labelledby="name">
+        <div class="hero-identity">
+          <h1 id="name">Yidong Ming</h1>
+          <p class="nickname">Jackie</p>
+          <p class="affiliation">Data Science, CityUHK<br>Hong Kong</p>
         </div>
-    </nav>
-
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
+        <div class="hero-copy">
+          <p class="lead">Learning robot behavior. Improving policies through experience.</p>
+          <div class="bio">
+            <p>I am a final-year BSc Data Science undergraduate at <strong>City University of Hong Kong</strong>, with expected graduation in June 2027.</p>
+            <p>I conduct embodied AI research with the <strong>InfoBodied AI Lab at HKU</strong>, supervised by Prof. Yanchao Yang, and work as an Embodied AI Algorithm Intern at TranscEngram.</p>
+            <p>My interests span <strong>robot representation learning, vision-language-action models, and LLM agents</strong>. I study how behavior representations and execution evidence can help policies generalize and improve. My final-year project, supervised by Prof. Jianyuan Guo, explores efficient inference for diffusion language models.</p>
+          </div>
+          <div class="intro-links">
+            <a class="button primary" href="files/yidong-ming-cv.pdf" target="_blank" rel="noopener">Download CV</a>
+            <a class="button" href="https://scholar.google.com/citations?user=tBQC4K0AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            <a class="button" href="https://www.researchgate.net/profile/Yidong-Ming-2" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            <a class="button" href="https://openreview.net/profile?id=~Yidong_Ming1" target="_blank" rel="noopener noreferrer">OpenReview</a>
+            <a class="button" href="https://www.linkedin.com/in/yidong-ming-226124330/zh-cn?originalSubdomain=hk" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="button" href="mailto:yidonming2-c@my.cityu.edu.hk">Email</a>
+          </div>
+          <div class="current"><span class="label">Current focus</span><p>Behavior representations · Agent-guided robot post-training · Efficient diffusion language models</p></div>
         </div>
-    </section>
-    <!-- Top Section -->
+      </section>
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
+      <section class="section" id="research" aria-labelledby="research-title">
+        <div class="section-top"><h2 id="research-title">Selected research</h2><span class="section-meta">Robot learning &amp; embodied agents</span></div>
+        <div class="section-content">
+        <article class="project">
+          <div class="project-image"><img src="assets/behavior-settings.webp" width="1179" height="321" alt="Mobile ALOHA experiment settings: object placement, nesting, and cloth folding under new instructions and visual conditions." loading="lazy"><span>Mobile ALOHA · physical evaluation</span></div>
+          <div class="project-copy">
+            <div class="tags"><span class="tag">Co-first author · second listed</span><span class="tag muted">ICLR 2027 · under review</span></div>
+            <h3>Transferable Behavior Embeddings from Unlabeled Videos for Policy Learning</h3>
+            <p>Learning motion, reached configuration, and execution status from unlabeled manipulation videos, then transferring this information into robot policy features through auxiliary supervision.</p>
+            <p class="result"><strong>37.2% → 50.2%</strong> clean π0.5 mean success across 11 RoboTwin 2.0 tasks, with no additional inference cost.</p>
+            <details><summary>My contribution and evaluation</summary><div class="detail-content"><p>I was responsible for the representation-probing experiments, the π0.5 simulation experiments in Table 1, and all experiments in Table 2. I also contributed to real-robot experimental design and execution.</p><p>On two unseen object–destination pairings, the Mobile ALOHA study improves from 0/80 to 49/80 successful trials. Evaluation also covers visual generalization, completion transfer, progress, and spatial readouts.</p><p class="fine">Manuscript Tables 1–3. Simulation: 100 rollouts per task and condition. Real robot: 40 trials per condition.</p></div></details>
+          </div>
+        </article>
+        <article class="project compiler">
+          <div class="project-image"><img src="assets/robocompiler-overview.webp" width="588" height="600" alt="RoboCompiler compares policy and expert execution, assigns phase budgets, and selects supervised training starts." loading="lazy"><span>RoboCompiler · experience compilation</span></div>
+          <div class="project-copy">
+            <div class="tags"><span class="tag">Third author</span><span class="tag muted">ICLR 2027 · under review</span></div>
+            <h3>RoboCompiler: Agentic Experience Compilation for Robot Post-Training</h3>
+            <p>A multimodal agent compares policy executions with expert demonstrations and turns diagnosed difficulties into phase allocations and training-start selections.</p>
+            <p class="result"><strong>88.3%</strong> mean physical-task success on ARX, compared with 75.0% for full-demonstration training.</p>
+            <details><summary>My contribution and evaluation</summary><div class="detail-content"><p>My main contribution was the design and execution of the real-robot experiments.</p><p>The paper evaluates π0.5 on ten simulation tasks, LingBot-VLA on five tasks, and three physical ARX tasks. Agent-guided compilation is completed before training; ordinary policy inference is retained.</p><p class="fine">Physical results: three tasks, 20 unseen trials per task and condition, one training seed. Manuscript Table 6.</p></div></details>
+          </div>
+        </article>
         </div>
-    </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publication-title">
+        <div class="section-top"><h2 id="publication-title">Publications &amp; manuscripts</h2><span class="section-meta">* Equal contribution</span></div>
+        <div class="section-content">
+        <ol class="publication-list">
+          <li><div class="pub-year">2027<span>Submission</span></div><div><h3>Transferable Behavior Embeddings from Unlabeled Videos for Policy Learning</h3><p class="authors">Ruizhe Liu*, <strong>Yidong Ming*</strong>, Zewen Wu, Qian Luo, Jianyuan Guo, Yanchao Yang</p><p class="venue">ICLR 2027 · under review</p></div></li>
+          <li><div class="pub-year">2027<span>Submission</span></div><div><h3>RoboCompiler: Agentic Experience Compilation for Robot Post-Training</h3><p class="authors">Qian Luo, Wentao Guo, <strong>Yidong Ming</strong>, Zhangke Liang, Haijian Tang, Yi Ma, Yanchao Yang</p><p class="venue">ICLR 2027 · under review</p></div></li>
+          <li><div class="pub-year">2026<span>Preprint</span></div><div><h3>SpikeBypass: Bypass-Decoupled Federated Class Unlearning for Spiking Neural Networks</h3><p class="authors">Haodong Huo*, <strong>Yidong Ming*</strong>, Maolin Wang</p><p class="venue">arXiv preprint</p></div></li>
+          <li><div class="pub-year">2026<span>ACL</span></div><div><h3>RubricBench: Aligning Model-Generated Rubrics with Human Standards</h3><p class="authors">Junyi Zhou, Qiyuan Zhang, Yufei Wang, Fuyuan Lyu, <strong>Yidong Ming</strong>, Can Xu, Qingfeng Sun, Kai Zheng, Peng Kang, Xue Liu, Chen Ma</p><p class="venue">ACL 2026 Main Conference</p><a href="https://aclanthology.org/2026.acl-long.1439/" target="_blank" rel="noopener noreferrer">ACL Anthology</a></div></li>
+          <li><div class="pub-year">2025<span>Preprint</span></div><div><h3>CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning</h3><p class="authors">Mengsong Wu, YaFei Wang, <strong>Yidong Ming</strong>, Yuqi An, Yuwei Wan, Wenliang Chen, Binbin Lin, Yuqiang Li, Tong Xie, Dongzhan Zhou</p><p class="venue">arXiv:2506.07551</p><a href="https://arxiv.org/abs/2506.07551" target="_blank" rel="noopener noreferrer">arXiv</a></div></li>
+        </ol>
         </div>
-    </section>
-    <!-- Home -->
+      </section>
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;EXPERIENCE</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="section-top"><h2 id="experience-title">Experience</h2></div>
+        <div class="section-content">
+        <div class="experience-list">
+          <article><div class="date">Jun 2026 – Present</div><div><h3>Embodied AI Research</h3><p class="organization">InfoBodied AI Lab, The University of Hong Kong</p><p>HKU Summer Research Program, supervised by Prof. Yanchao Yang. Behavior representations, simulation evaluation, and physical manipulation experiments.</p></div></article>
+          <article><div class="date">Aug 2026 – Present</div><div><h3>Embodied AI Algorithm Intern</h3><p class="organization">TranscEngram · Shenzhen</p><p>Label-free manipulation concept learning, VLA policies, and cross-embodiment generalization. Developing a pipeline for iterative robot data collection, curation, training, and evaluation.</p></div></article>
+          <article><div class="date">Sep 2026 – Present</div><div><h3>Efficient Inference for Diffusion Language Models</h3><p class="organization">Final Year Project · City University of Hong Kong · Prof. Jianyuan Guo</p><p>Investigating token sparsity and dynamic depth in LLaDA-8B-Instruct and DyLLM, with profiling of active-token dynamics, cross-layer support, and runtime scheduling.</p><details><summary>Preliminary Depth Stream results</summary><div class="detail-content"><p>On MMLU-Pro, Step246 Loose achieved a <strong>1.46× generation-time speedup</strong> relative to the DyLLM baseline, with scores of <strong>37.67% versus 36.61%</strong>. These are preliminary measurements.</p></div></details></div></article>
+          <article><div class="date">Apr – Jul 2026</div><div><h3>Federated Learning &amp; Spiking Neural Networks</h3><p class="organization">City University of Hong Kong · Maolin Wang &amp; Xiangyu Zhao</p><p>Initiated the federated SNN class-unlearning direction and co-designed SpikeBypass: a frozen backbone with a plug-and-play adapter. Contributed spike-saliency localization, mask-constrained adapters, and most ablation studies.</p></div></article>
+          <article><div class="date">Nov 2025 – Jan 2026</div><div><h3>LLM Alignment &amp; Evaluation</h3><p class="organization">City University of Hong Kong · Collaboration with Junyi Zhou</p><p>Co-authored RubricBench, a benchmark of 1,147 pairwise comparisons across chat, instruction-following, STEM, coding, and safety. Contributed hard-sample filtering and atomic rubric annotation; the study found a 27-percentage-point gap between human- and model-generated rubrics.</p></div></article>
+          <article><div class="date">Oct 2024 – Oct 2025</div><div><h3>AI Research Engineer Intern</h3><p class="organization">Green Dynamics Limited</p><p>Contributed to CheMatAgent, a scientific LLM agent integrating 137 external tools. Implemented pymatgen tool interfaces, parameter schemas, and documentation for materials-science workflows.</p></div></article>
+          <article><div class="date">Feb – Sep 2025</div><div><h3>Industrial AI Research</h3><p class="organization">City University of Hong Kong · Prof. Lishuai Li</p><p>Explored machine learning, LLMs, and control systems for industrial-process optimization and new-energy transformation. Automated data-analysis workflows with function tools, agents, and MCP, while investigating PID/MPC strategies.</p></div></article>
+          <article><div class="date">Jun – Sep 2024</div><div><h3>Computer Vision Project Assistant</h3><p class="organization">CityUHK · Industry collaboration with Chow Tai Fook</p><p>U-Net segmentation and image retrieval for diamond-inclusion inspection, supervised by Prof. Raymond Chan and Prof. S. Yung.</p></div></article>
         </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-file-text-fill"></i>PUBLICATION </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
+        <details><summary>Technical skills</summary><div class="detail-content"><p><strong>Robot learning:</strong> VLA models, policy and imitation learning, multimodal representations, and cross-embodiment generalization.</p><p><strong>Tools:</strong> Python, PyTorch, JAX, NumPy, CUDA, ROS 2, MuJoCo, RoboTwin 2.0, OpenCV, Git, and Linux.</p><p><strong>Additional research:</strong> LLM agents and tool calling, self-supervised learning, federated learning, and spiking neural networks.</p></div></details>
+        <details><summary>Teaching &amp; community service</summary><div class="detail-content"><p>Student Teaching Assistant for MA1508 (Calculus) and MA1503 (Linear Algebra with Applications), CityUHK, Summer 2024.</p><p>Served on CityUHK’s Board of Undergraduate Studies and participated in the Department of Data Science Student Chapter. Volunteered with Hong Kong Ferryman, Chinese Evangelical Zion Church, and HOPE worldwide, including teaching and fundraising activities.</p></div></details>
         </div>
-    </section>
-    <!-- Awards -->
+      </section>
 
-
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
+      <section class="section" id="awards" aria-labelledby="award-title">
+        <div class="section-top"><h2 id="award-title">Awards &amp; education</h2></div>
+        <div class="section-content">
+        <div class="education"><div class="date">2023 – 2027</div><div><h3>BSc in Data Science</h3><p>City University of Hong Kong · Expected June 2027</p><p class="academic">CGPA 4.08/4.3 · Top 2% · Dean’s List</p></div></div>
+        <ul class="award-list">
+          <li><span class="award-date">2026/27</span><div><strong>HKSAR Government Scholarship — Renewal</strong><p>Recommended by CityUHK for renewal</p></div></li>
+          <li><span class="award-date">2025/26</span><div><strong>HKSAR Government Scholarship</strong><p>Scholarship for Outstanding Performance · HK$80,000</p></div></li>
+          <li><span class="award-date">2025/26</span><div><strong>HKSAR Government Scholarship Fund</strong><p>Reaching Out Award · HK$10,000</p></div></li>
+          <li><span class="award-date">2025</span><div><strong>Greater Bay Area Data Governance Competition</strong><p>Grand Prize</p></div></li>
+          <li><span class="award-date">2024</span><div><strong>Asia-Pacific Mathematical Contest in Modeling</strong><p>Second Prize · 14th APMCM</p></div></li>
+          <li><span class="award-date">2024</span><div><strong>Hua Tai Securities Investment Banking Internship Preparatory Camp</strong><p>Second Place</p></div></li>
+          <li><span class="award-date">Program</span><div><strong>CityU Tiger Program</strong><p>Top 10% in CityU</p></div></li>
+          <li><span class="award-date">2023/24</span><div><strong>Chi-Li Pao Foundation Scholarship for Academic Excellence</strong><p>HK$25,000</p></div></li>
+        </ul>
+        <p class="exchange">Exchange experience: Middlesex University, London (May–Jun 2026); University of British Columbia, Vancouver (Jul–Aug 2025).</p>
         </div>
-    </footer>
-
+      </section>
+      <footer><div><strong>Yidong Ming</strong><a href="mailto:yidonming2-c@my.cityu.edu.hk">yidonming2-c@my.cityu.edu.hk</a><a href="https://msa-yd.github.io/">msa-yd.github.io</a></div><span>Updated 9 October 2026</span></footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
