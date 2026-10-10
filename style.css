@@ -52,6 +52,7 @@ main, .hero-copy, .section-content, .project-copy { min-width: 0; }
 .section { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 56px; padding: 56px 0; border-top: 1px solid var(--line); }
 .intro { grid-template-columns: 260px minmax(0, 1fr); gap: 70px; padding: 68px 0 60px; border-top: 0; align-items: start; }
 .hero-identity { position: sticky; top: 100px; }
+.profile-photo { display: block; width: min(100%, 240px); height: auto; margin-top: 24px; border-radius: 8px; border: 1px solid var(--line); }
 .nickname { margin: 14px 0 0; font-size: 1.125rem; color: var(--muted); }
 .affiliation { margin: 18px 0 0; font-size: 1rem; color: var(--muted); line-height: 1.65; }
 .hero-copy { max-width: 720px; }
